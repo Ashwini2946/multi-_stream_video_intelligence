@@ -1,0 +1,37 @@
+[
+  {
+    "id": "q1",
+    "query": "person in dark jacket entering through main gate",
+    "ground_truth_clip_ids": ["clip_cam_01_0_5", "clip_cam_01_5_10"],
+    "target_cameras": ["CAM_01"],
+    "category": "person_access"
+  },
+  {
+    "id": "q2",
+    "query": "black SUV turning into parking lot spot B4",
+    "ground_truth_clip_ids": ["clip_cam_02_12_17"],
+    "target_cameras": ["CAM_02"],
+    "category": "vehicle_parking"
+  },
+  {
+    "id": "q3",
+    "query": "unattended backpack left beside perimeter fence",
+    "ground_truth_clip_ids": ["clip_cam_04_25_30"],
+    "target_cameras": ["CAM_04"],
+    "category": "suspicious_object"
+  },
+  {
+    "id": "q4",
+    "query": "forklift moving pallets at loading dock",
+    "ground_truth_clip_ids": ["clip_cam_03_8_13", "clip_cam_03_13_18"],
+    "target_cameras": ["CAM_03"],
+    "category": "equipment_operation"
+  },
+  {
+    "id": "q5",
+    "query": "individual running between East Gate and North Entrance",
+    "ground_truth_clip_ids": ["clip_cam_01_40_45", "clip_cam_04_35_40"],
+    "target_cameras": ["CAM_01", "CAM_04"],
+    "category": "multi_camera_tracking"
+  }
+]

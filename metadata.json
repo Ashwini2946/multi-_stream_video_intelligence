@@ -1,0 +1,6 @@
+{
+  "name": "Multi-Stream Video Intelligence",
+  "description": "Multi-camera surveillance intelligence platform featuring manual video stream ingestion, file uploads, temporal semantic retrieval, cross-camera person/vehicle Re-ID, and memory index store.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
